@@ -16,7 +16,7 @@
     float: left;
     font-size: 30px;
     font-style: italic;
-    padding: 6px 0 12px 50px;
+    padding: 8px;
   }
    
   .order-btn{
@@ -79,7 +79,6 @@
   }
     
   .product-price {
-    float: left;
     font-size: 20px;
     font-weight: 500;
     margin: 5px 0 20px;
@@ -100,3 +99,16 @@
     background: #ffd699;
   }
   
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  .main-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .main-container {
+    grid-template-columns: auto;
+  }
+  
+}

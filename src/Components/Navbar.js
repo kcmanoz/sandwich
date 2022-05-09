@@ -1,18 +1,12 @@
 import React, {useState} from 'react'
-import './style.css'
 
-
-const Navbar = () => {
-    const [ordersSideBar, setOrdersSideBar] = useState(false)
-    
-    const showSideBar = () => {
-        setOrdersSideBar(!ordersSideBar)
-    }
+const Navbar = (props) => {
+  const {setSideMenuOpen, sideMenuOpen} = props;
   
       return (
         <div className='navbar'>
           <span className='nav-title'>Sandwich House</span>
-          <span className='order-btn'>Orders</span>
+          <span className='order-btn' onClick={() => setSideMenuOpen(!sideMenuOpen)}>Orders</span>
         </div>
       )
 }

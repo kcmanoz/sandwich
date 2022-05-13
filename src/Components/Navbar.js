@@ -1,12 +1,11 @@
 import React, {useState} from 'react'
 
-const Navbar = (props) => {
-  const {setSideMenuOpen, sideMenuOpen} = props;
-  
+const Navbar = () => {
+
       return (
         <div className='navbar'>
           <span className='nav-title'>Sandwich House</span>
-          <span className='order-btn' onClick={() => setSideMenuOpen(!sideMenuOpen)}>Orders</span>
+          <span className='order-btn'>Orders</span>
         </div>
       )
 }

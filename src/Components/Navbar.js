@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 
-const Navbar = ({ orders }) => {
+const Navbar = ({ orders, cancelOrders }) => {
   const [isOpen, setIsOpen] = useState(false);
   const totalPrice = Array.isArray(orders) ? orders.reduce((acc, order) => acc + order.price, 0) : 0;
 
   const handleMenuClick = () => {
     setIsOpen(!isOpen);
+  }
+
+  const handleCancelOrders = () => {
+    cancelOrders(); // call the function passed down from the parent
+    setIsOpen(false); // close the orders list
   }
 
   return (
@@ -17,6 +22,7 @@ const Navbar = ({ orders }) => {
           <div className='orders-list'>
             <p>Total Items: {orders.length}</p>
             <p>Total Price: {totalPrice.toFixed(2)}€</p>
+            <button className='cancel-orders-btn' onClick={handleCancelOrders}>Cancel Orders</button>
           </div>
         }
       </div>

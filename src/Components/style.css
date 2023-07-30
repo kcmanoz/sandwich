@@ -133,6 +133,23 @@ body {
   background: #ffd699;
 }
 
+.cancel-orders-btn {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #efd8d8;
+  cursor: pointer;
+  padding: 12px 15px;
+  border: none;
+  margin-top: 15px;
+  color: red;
+  width: 60%;
+}
+
+.cancel-orders-btn:hover {
+  background-color: #ff6666;
+  color: white;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
   .main-container {

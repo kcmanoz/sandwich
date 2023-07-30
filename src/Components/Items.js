@@ -1,20 +1,20 @@
-const Items = [ 
+const Items = [
     {
         id: 1,
         image: 'images/chicken.jpg',
         name: 'Chicken Sandwich',
         price: 9.99,
-        description: 
+        description:
             'Deep fried chicken, cheese, tomatoes and garlic mayonnaise'
 
     },
-    
+
     {
         id: 2,
         image: 'images/ham.jpg',
         name: 'Ham Sandwich',
         price: 7.99,
-        description: 
+        description:
             'Ham, cheese, garlic, onion and chilli sauce'
 
     },
@@ -24,7 +24,7 @@ const Items = [
         image: 'images/vegan.jpg',
         name: 'Vegan Sandwich',
         price: 6.99,
-        description: 
+        description:
             'Green salad, garlic, onion and tomato sauce'
 
     },
@@ -34,7 +34,7 @@ const Items = [
         image: 'images/bacon.jpg',
         name: 'Bacon Sandwich',
         price: 8.99,
-        description: 
+        description:
             'Bacon, cheese, garlic and chilli sauce'
 
     },
@@ -44,7 +44,7 @@ const Items = [
         image: 'images/cheese.jpg',
         name: 'Cheese Sandwich',
         price: 7.99,
-        description: 
+        description:
             'Cheese, olives, onion and tomatoes'
 
     },
@@ -54,7 +54,7 @@ const Items = [
         image: 'images/egg.jpg',
         name: 'Egg Sandwich',
         price: 6.99,
-        description: 
+        description:
             'Boiled egg, tomatoes, garlic and cheese'
 
     }

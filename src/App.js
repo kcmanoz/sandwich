@@ -10,9 +10,13 @@ const App = () => {
     setOrders([...orders, item]);
   }
 
+  const cancelOrders = () => {
+    setOrders([]); // set orders back to the initial state
+  }
+
   return (
     <>
-      <Navbar orders={orders} />
+      <Navbar orders={orders} cancelOrders={cancelOrders} />
       <Product onOrderClick={handleOrderClick} />
     </>
   );

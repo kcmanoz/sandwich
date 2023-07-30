@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
+
+import React from 'react';
 import './style.css'
-import Items from './ItemsData'
+import Items from './Items'
 import Menu from './Menu'
 
-const Product = () => {
-    const [itemsData, setItemsData] = useState(Items);
+const Product = ({ onOrderClick }) => (
+  <Menu data={Items} onOrderClick={onOrderClick} />
+);
 
-  return (
-    <>
-    <Menu data ={itemsData} />
-    </>
-  )
-}
-
-export default Product
+export default Product;

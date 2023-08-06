@@ -1,6 +1,6 @@
 # Sandwich House
 
-It is an interactive and user-friendly web application for online food ordering, primarily focusing on sandwiches. Built with JavaScript, React, HTML and CSS, this app allows users to browse through a wide array of sandwich options, place orders, and cancel orders.
+It is an interactive and user-friendly web application for online ordering of sandwiches. Built with JavaScript, React, HTML and CSS, this app allows users to browse through a wide array of sandwich options, place orders, and cancel orders.
 
 ## Local Setup
 

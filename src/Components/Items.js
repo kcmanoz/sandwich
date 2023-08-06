@@ -1,7 +1,16 @@
+import chicken from '../images/chicken.jpg';
+import ham from '../images/ham.jpg';
+import vegan from '../images/vegan.jpg';
+import bacon from '../images/bacon.jpg';
+import cheese from '../images/cheese.jpg';
+import egg from '../images/egg.jpg';
+import fish from '../images/fish.jpg';
+import turkey from '../images/turkey.jpg';
+
 const Items = [
     {
         id: 1,
-        image: 'images/chicken.jpg',
+        image: chicken,
         name: 'Chicken Sandwich',
         price: 9.99,
         description:
@@ -11,7 +20,7 @@ const Items = [
 
     {
         id: 2,
-        image: 'images/ham.jpg',
+        image: ham,
         name: 'Ham Sandwich',
         price: 7.99,
         description:
@@ -21,27 +30,27 @@ const Items = [
 
     {
         id: 3,
-        image: 'images/vegan.jpg',
+        image: vegan,
         name: 'Vegan Sandwich',
         price: 6.99,
         description:
-            'Green salad, garlic, onion and tomato sauce'
+            'Avocado, Spinach, Cucumber, Red Onion, Bell Pepper'
 
     },
 
     {
         id: 4,
-        image: 'images/bacon.jpg',
+        image: bacon,
         name: 'Bacon Sandwich',
         price: 8.99,
         description:
-            'Bacon, cheese, garlic and chilli sauce'
+            'Bacon, Lettuce, Tomato, Mayonnaise, Toasted Bread'
 
     },
 
     {
         id: 5,
-        image: 'images/cheese.jpg',
+        image: cheese,
         name: 'Cheese Sandwich',
         price: 7.99,
         description:
@@ -51,11 +60,30 @@ const Items = [
 
     {
         id: 6,
-        image: 'images/egg.jpg',
+        image: egg,
         name: 'Egg Sandwich',
         price: 6.99,
         description:
             'Boiled egg, tomatoes, garlic and cheese'
+
+    },
+    {
+        id: 7,
+        image: fish,
+        name: 'Tuna Salad Sandwich',
+        price: 7.99,
+        description:
+            'FTuna, Mayonnaise, Celery, Lettuce, Tomato, Whole Grain Bread'
+
+    },
+
+    {
+        id: 8,
+        image: turkey,
+        name: 'Turkey Club',
+        price: 5.99,
+        description:
+            'Turkey Breast, Bacon, Lettuce, Tomato, Mayonnaise'
 
     }
 ];

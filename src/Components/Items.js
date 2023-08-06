@@ -14,7 +14,7 @@ const Items = [
         name: 'Chicken Sandwich',
         price: 9.99,
         description:
-            'Deep fried chicken, cheese, tomatoes and garlic mayonnaise'
+            'Deep fried chicken, cheese, tomatoes and garlic'
 
     },
 
@@ -34,7 +34,7 @@ const Items = [
         name: 'Vegan Sandwich',
         price: 6.99,
         description:
-            'Avocado, Spinach, Cucumber, Red Onion, Bell Pepper'
+            'Avocado, Spinach, Cucumber, Red Onion'
 
     },
 
@@ -44,7 +44,7 @@ const Items = [
         name: 'Bacon Sandwich',
         price: 8.99,
         description:
-            'Bacon, Lettuce, Tomato, Mayonnaise, Toasted Bread'
+            'Bacon, Lettuce, Tomato, Toasted Bread'
 
     },
 
@@ -73,7 +73,7 @@ const Items = [
         name: 'Tuna Salad Sandwich',
         price: 7.99,
         description:
-            'FTuna, Mayonnaise, Celery, Lettuce, Tomato, Whole Grain Bread'
+            'Tuna, Celery, Lettuce, Tomato, Whole Grain Bread'
 
     },
 

@@ -22,8 +22,8 @@ const Navbar = ({ orders, cancelOrders }) => {
   return (
     <nav className='navbar'>
 
-      <span className='navbar-title'>Sandwich House</span>
-      <div className="navbar-list">
+      <span className='navbar-title'><Link to="/" className='title-link'>Sandwich House</Link></span>
+      <div className='navbar-list'>
         <Link to="/" className='navbar-content'>HOME</Link>
         <Link to="/menu" className='navbar-content'>MENU</Link>
         <Link to="/find" className='navbar-content'>FIND A SANDWICH HOUSE</Link>

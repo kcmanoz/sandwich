@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import './Components/style.css';
 import Product from './Components/Product';
@@ -6,7 +7,6 @@ import Items from './Components/Items';
 import Footer from './Components/Footer';
 import Menu from './Components/Menu';
 import Find from './Components/Find';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   const [orders, setOrders] = useState([]);

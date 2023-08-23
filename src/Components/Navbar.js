@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import cartLogo from "../images/cart.svg";
 
 const Navbar = ({ orders, cancelOrders }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = ({ orders, cancelOrders }) => {
       </div>
 
       <div className='orders-container'>
-        <span className='total-order' onClick={handleMenuClick}>Orders {totalPrice.toFixed(2)}€</span>
+        <span className='total-order' onClick={handleMenuClick}><img src={cartLogo} alt='cart logo' /> {totalPrice.toFixed(2)}€</span>
         {isOpen &&
           <div className='orders-list'>
             <button className='close-orders-btn' onClick={handleCloseOrdersList}>✕</button>

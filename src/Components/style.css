@@ -46,21 +46,28 @@ body {
 .orders-container {
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-right: 40px;
 }
 
 .total-order {
   font-size: 1.25rem;
-  font-weight: 600;
   background-color: #ffb31a;
   color: #333;
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 5px 15px;
   border-radius: 8px;
   transition: background-color 0.3s;
+  display: inline-flex; /* Add this line to enable vertical alignment */
+  align-items: center;
 }
 
+.total-order img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
 .total-order:hover {
   background-color: #ffcc66;
 }

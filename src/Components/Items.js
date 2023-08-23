@@ -73,7 +73,7 @@ const Items = [
         name: 'Tuna Salad Sandwich',
         price: 7.99,
         description:
-            'Tuna, Celery, Lettuce, Tomato, Whole Grain Bread'
+            'Tuna, Celery, Lettuce, Tomato, Bread'
 
     },
 
@@ -83,7 +83,7 @@ const Items = [
         name: 'Turkey Club',
         price: 5.99,
         description:
-            'Turkey Breast, Bacon, Lettuce, Tomato, Mayonnaise'
+            'Turkey Breast, Bacon, Lettuce, Tomato'
 
     }
 ];

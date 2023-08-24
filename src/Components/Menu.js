@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Menu() {
+const Menu = () => {
     return (
         <div className="menu-container">
             <h2 className="menu-title">Sandwich Menu</h2>
